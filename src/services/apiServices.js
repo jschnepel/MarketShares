@@ -97,26 +97,26 @@ const mockProcessFiles = async (files) => {
     data: {
       processedData: {
         labels: [
-          'Russ Lyon Sotheby\'s International Realty', 
-          'HomeSmart', 
-          'Realty ONE Group', 
-          'Coldwell Banker', 
-          'Berkshire Hathaway', 
-          'RE/MAX',
-          'eXp Realty',
-          'Keller Williams',
-          'Century 21',
-          'My Home Group',
-          'West USA Realty',
-          'Arizona Best Real Estate',
-          'Launch Real Estate',
-          'The Agency',
-          'Homie'
+          'Brokerage #1', 
+          'Brokerage #2', 
+          'Brokerage #3', 
+          'Brokerage #4', 
+          'Brokerage #5', 
+          'Brokerage #6',
+          'Brokerage #7',
+          'Brokerage #8',
+          'Brokerage #9',
+          'Brokerage #10',
+          'Brokerage #11',
+          'Brokerage #12',
+          'Brokerage #13',
+          'Brokerage #14',
+          'Brokerage #15'
         ],
         datasets: [
           {
             data: [
-              15.6, 9.0, 8.7, 8.3, 7.8, 7.2, 6.5, 5.9, 5.2, 4.8, 4.3, 3.9, 3.5, 3.1, 2.7
+              5, 1, 2, 1, 3, 2, 1, 6, 3, 4, 5, 6, 8, 4, 1
             ],
             backgroundColor: [
               '#002349', // Russ Lyon Sotheby's blue
@@ -139,12 +139,12 @@ const mockProcessFiles = async (files) => {
         ]
       },
       insights: {
-        title: "Russ Lyon Sotheby's International Realty Market Share Analysis",
+        title: "Market Share Analysis",
         description: "Analysis based on columns B (Brand) and M (Market Share)",
         summary: [
-          "Russ Lyon Sotheby's International Realty has 15.6% market share",
-          "6.6 percentage points ahead of nearest competitor (HomeSmart at 9.0%)",
-          "Strong position in the Carefree/Cave Creek luxury market",
+          "Realty has 15.6% market share",
+          "6.6 percentage points ahead of nearest competitor",
+          "Strong position in the market",
           "Top 3 brokerages control 33.3% of the luxury market"
         ]
       }
